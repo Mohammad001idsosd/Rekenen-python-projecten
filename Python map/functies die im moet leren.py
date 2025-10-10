@@ -11,6 +11,9 @@
 # functie: float
 # functie: input()
 # functie: if/ van <waarde> dan <waarde>
+# functie: elife 
+# functie: else!
+# functie: list[]
 
 
 
