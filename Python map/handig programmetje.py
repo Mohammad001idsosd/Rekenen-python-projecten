@@ -34,11 +34,11 @@
 # import random
 
 
-namen = [
-    "Daan A", "Abdul", "Yaroslav", "Beam", "Luo Xi", "Dima", "Damien", "Matthew",
-    "Ahmed", "Winay", "Jarrod", "Mohammad", "Jaimy", "Maurizio", "Jay-Quan", "Safa",
-    "Kiyara", "Marouf", "Annemare", "Semen", "Ajay", "Bert", "Rogier", "Daan V", "Kateryna"
-]
+# namen = [
+#     "Daan A", "Abdul", "Yaroslav", "Beam", "Luo Xi", "Dima", "Damien", "Matthew",
+#     "Ahmed", "Winay", "Jarrod", "Mohammad", "Jaimy", "Maurizio", "Jay-Quan", "Safa",
+#     "Kiyara", "Marouf", "Annemare", "Semen", "Ajay", "Bert", "Rogier", "Daan V", "Kateryna"
+# ]
 
 # while True:
 #     print("\n1. Eén naam\n2. Twee namen\n3. x namen\n4. Groepjes maken\n5. Stoppen")
