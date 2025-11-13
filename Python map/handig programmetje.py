@@ -68,6 +68,12 @@
 #     else:
 #         print("Ongeldige keuze!")
 
+fp = "Python map"
+with open(fp + "x") as f:
+    inhoud = f.read()
+    print(inhoud)
+
+
 
 import random 
 groepje = 0
@@ -82,10 +88,24 @@ namen = [
 
 for i in range(groepjes):
     groepjes += 1
-    print("------")
-    print(f"groep{groepjes}:")
-    print("------")
+
+    print(f"------\ngroep{groepjes}:\n------")
+
     for i in range(personen):
         huidigeNaam = random.choice(namen)
         print(huidigeNaam)
         namen.remove(huidigeNaam)
+
+
+
+import random 
+klas25a = ['Daan A', 'Abdul', 'Yaroslav', 'Beam', 'Luo Xi', 'Dima', 'Damien', 'Matthew',
+    'Ahmed', 'Winay', 'Jarrod', 'Mohammad', 'Jaimy', 'Maurizio', 'Jay-Quan', 'Safa',
+    'Kiyara', 'Marouf', 'Annemare', 'Semen', 'Ajay', 'Bert', 'Rogier', 'Daan V', 'Kateryna']
+
+#notatie: de gebruiker moet gevraagd hoeveel personen er in een gropepje moeten
+#notatie: Het antwoord van de gebruiker slaan we op in een variabele
+aantal_pergroep = int(input("Aantal per groep:"))
+#notatie: we shofelen de namen in de klas
+random.shuffle(klas25a)
+#notatie: we willen 4 personen per groep: 
