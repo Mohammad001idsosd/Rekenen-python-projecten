@@ -1,0 +1,1 @@
+ik heb deze programmatje gemaakt op basis van wat de opdracht was doorgegeven aan mij en het ging over een programmatje te maken in python om verschillende manieren van procenten te kunnen berekenen! 
